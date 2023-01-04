@@ -7,9 +7,9 @@ const App = () => {
   const [menu, setMenu] = useState([
     { name: "Lofthaus Sugar Cookies", ordered: false },
     { name: "Prime Rib", ordered: false},
-    { name: "Eggnog", ordered: true},
+    { name: "Eggnog", ordered: false},
     { name: "Mac & Cheese", ordered: false},
-    { name: "Lumpia", ordered:true},
+    { name: "Lumpia", ordered: false}
 
   ])
 //  set selectedItem to represent the index of the clicked on food item
