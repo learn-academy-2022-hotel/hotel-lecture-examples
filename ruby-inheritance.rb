@@ -67,6 +67,7 @@ babish = YouTube.new("How to Make Pigs in a Blanket", "11:15", "Babish")
 # p babish
 # #<YouTube:0x000000011f0a58c8 @title="How to Make Pigs in a Blanket", @run_time="11:15", @consumed_media=false, @creator="Babish">
 p babish.content_data
+"You have not consumed the media called How to Make Pigs in a Blanket for 11:15 long."
 
 class Spotify < StreamingApp
   def initialize(title_parameter, run_time_parameter, artist_parameter, album_parameter)
