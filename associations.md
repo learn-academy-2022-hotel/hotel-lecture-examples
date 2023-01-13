@@ -14,6 +14,7 @@
 # Databases
 - $ rails g model Cohort name:string year:string
 - $ rails g model Student name:string cohort_id:integer
+- $ rails db:migrate
 
 # Models
 ***app/models/student***
