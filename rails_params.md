@@ -23,11 +23,21 @@
     - @name = params[:name]
   - modify routes to include the params key in the path
     - get '/entertainment/:name' => 'luau#entertainment'
+  - appended to the end of the url in the browser
+    - http://localhost:3000/entertainment/Nicole
 
 - links 
   - <%= link_to 'name of link', '/path' %>
 
 - mapping arrays on the views files
+  - store array in an instance variable on the controller method
+```ruby
+  def entertainment
+    @name = params[:name]
+    @activities = ['hula', 'fire twirling', 'leis', 'climbing palm tree', 'seafaring']
+  end
+```
+  - use map method on the array to display values in a list on the views file
 ```html
   <% @activities.map do |value|%>
     <h3>
