@@ -63,7 +63,7 @@ https://guides.rubyonrails.org/
     def aloha
       # render html: 'Aloha, Hotel, we are learning about routes, controllers, and views!'
       @cohort = 'Hotel 2022'
-      # render 'home/aloha'
+      render 'home/aloha'
     end
   end
 
